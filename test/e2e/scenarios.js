@@ -33,7 +33,7 @@ describe('my app', function() {
 
     it('should render signup when user navigates to signup', function() {
       expect(element('h1').text()).
-        toMatch("Sign up for further information.");
+        toMatch("Sign up for further information");
       expect(element('.active').text()).
         toMatch("Sign up");
     });

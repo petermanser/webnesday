@@ -4,6 +4,7 @@
 // Declare app level module which depends on filters, and services
 angular.module('myApp', [
   'ngRoute',
+  'ngAnimate',
   'myApp.filters',
   'myApp.services',
   'myApp.directives',
@@ -18,5 +19,5 @@ config(['$routeProvider', function($routeProvider) {
       templateUrl: 'partials/contact.html',
       controller: 'ContactCtrl'}
   );
-  $routeProvider.otherwise({redirectTo: '/view1'});
+  $routeProvider.otherwise({redirectTo: '/'});
 }]);
