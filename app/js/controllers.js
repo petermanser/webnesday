@@ -3,8 +3,8 @@
 /* Controllers */
 
 angular.module('myApp.controllers', []).
-  controller('SignupCtrl', function($scope) {
-  })
+  controller('SignupCtrl', [function() {
+  }])
   .controller('ContactCtrl', [function() {
   }])
   .controller('navCtrl', ['$scope', '$location', function ($scope, $location) {

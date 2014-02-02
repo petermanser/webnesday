@@ -9,11 +9,3 @@ body {
 #mc_embed_signup form {
     text-align: center;
 }
-
-#mc_embed_signup .button {
-    background-color: #2ecc71;
-}
-
-#mc_embed_signup .button:hover {
-    background-color: #27ae60;
-}
