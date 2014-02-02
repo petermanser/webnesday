@@ -1,5 +1,8 @@
 'use strict';
 
+window.addEventListener('load', function() {
+    FastClick.attach(document.body);
+}, false);
 
 // Declare app level module which depends on filters, and services
 angular.module('myApp', [
