@@ -38,8 +38,7 @@
               </ul>
             </div>
           </div>
-          <div ng-view class="inner cover"></div>
-
+          <div ng-view ng-animate="{enter: 'enter', leave: 'leave'}" class="inner cover"></div>
           <div class="mastfoot">
             <div class="inner">
               <p>
@@ -52,8 +51,6 @@
         </div>
       </div>
     </div>
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
- 
   <script src="lib/angular.min.js"></script>
   <script src="lib/angular-route.min.js"></script>
   <script src="lib/angular-animate.min.js"></script>
