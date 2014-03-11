@@ -9,7 +9,7 @@ angular.module('myApp.controllers', []).
   }])
   .controller('navCtrl', ['$scope', '$location', function ($scope, $location) {
     $scope.navClass = function (page) {
-      return '';
+      // return '';
         var currentRoute = $location.path().substring(1) || 'signup';
         return page === currentRoute ? 'active' : '';
     };
