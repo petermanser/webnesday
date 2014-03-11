@@ -8,9 +8,6 @@ window.addEventListener('load', function() {
 angular.module('myApp', [
   'ngRoute',
   // 'ngAnimate',
-  'myApp.filters',
-  'myApp.services',
-  'myApp.directives',
   'myApp.controllers'
 ]).
 config(['$routeProvider', function($routeProvider) {
