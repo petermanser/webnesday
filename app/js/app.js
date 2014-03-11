@@ -7,7 +7,7 @@ window.addEventListener('load', function() {
 // Declare app level module which depends on filters, and services
 angular.module('myApp', [
   'ngRoute',
-  'ngAnimate',
+  // 'ngAnimate',
   'myApp.filters',
   'myApp.services',
   'myApp.directives',

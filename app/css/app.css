@@ -12,6 +12,33 @@ body {
     color: #111;
 }
 
+/*@media only screen and (max-device-width : 480px) {*/
+@media only screen and (min-width : 769px) {
+  .site-wrapper-inner {
+    margin-top: 150px;
+  }
+}
+  .site-wrapper {
+    display: block;
+    overflow: auto;
+  }
+  .site-wrapper-inner {
+      display: block;
+  }
+  @media only screen and (max-width : 480px) {
+    h1 {
+      font-size: 21px;
+    }
+  }
+/*}*/
+
+
+/*
+.site-wrapper-inner {
+  display: inherit;
+  height: 100%;
+}*/
+/*
 .view {
   display: block;
   position: absolute;
@@ -23,8 +50,8 @@ body {
 .view div {
   margin: 0 auto;
   max-width: 600px;
-}
-
+}*/
+/*
 .ng-enter, .ng-leave
 {
     -webkit-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
@@ -47,4 +74,4 @@ body {
 }
 .ng-leave.ng-leave-active{
     left: -100%;
-}
+}*/
