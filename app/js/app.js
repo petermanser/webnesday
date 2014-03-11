@@ -3,11 +3,14 @@
 // Declare app level module which depends on filters, and services
 angular.module('myApp', [
   'ngRoute',
-  // 'ngAnimate',
   'myApp.controllers'
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/', {
+      templateUrl: 'partials/home.html', 
+      controller: 'HomeCtrl'}
+  );
+  $routeProvider.when('/signup', {
       templateUrl: 'partials/signup.html', 
       controller: 'SignupCtrl'}
   );

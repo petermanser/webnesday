@@ -1,5 +1,5 @@
 html, body, h1, h2, h3, p {
-    font-family: Open Sans;
+    font-family: Helvetica-Light, Open Sans;
 }
 
 body {
@@ -10,6 +10,40 @@ body {
 #mc_embed_signup form {
     text-align: center;
     color: #111;
+}
+
+.home {
+  background-color: white;
+  color: #111111;
+  text-shadow: none;
+  padding: 20px;
+}
+
+.home a {
+  color: #0074D9;
+}
+
+.home p {
+  text-align: justify;
+  line-height: 22px;
+}
+
+.home h1, .home h2, .home ul li {
+  text-align: left;
+}
+
+.home h1 {
+  margin-top: 0;
+}
+
+
+.home {
+  box-shadow: 1px 1px 13px -2px #111;
+  font-family: 'Helvetica-Light';
+}
+
+#mc_embed_signup .mc-field-group input {
+  text-align: center;
 }
 
 /*@media only screen and (max-device-width : 480px) {*/
@@ -28,6 +62,30 @@ body {
   @media only screen and (max-width : 480px) {
     h1 {
       font-size: 21px;
+    }
+
+    h2 {
+      font-size: 16px;
+    }
+
+    .home p, .home ul {
+      font-size: 12px;
+    }
+
+    .home ul {
+      padding-left: 15px;
+    }
+
+    .home {
+      padding: 15px;
+    }
+
+    .cover {
+      padding: 15px;
+    }
+
+    .inner {
+      padding: 15px;
     }
   }
 /*}*/

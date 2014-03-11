@@ -33,19 +33,18 @@
             <div class="inner">
               <h3 class="masthead-brand">Webnesday.ch</h3>
               <ul class="nav masthead-nav" ng-controller="navCtrl">
-                <li ng-class="navClass('signup')"><a href="#/">Sign up</a></li>
-                <li ng-class="navClass('contact')"><a href="#/contact">Contact</a></li>
+                <li ng-class="navClass('home')"><a href="#/">Home</a></li>
+                <li ng-class="navClass('signup')"><a href="#/signup">Newsletter</a></li>
+                <li ng-class="navClass('contact')"><a href="#/contact">Kontakt</a></li>
               </ul>
             </div>
           </div>
           <div ng-view class="view inner cover"></div>
           <div class="mastfoot">
             <div class="inner">
-              <p>
-                <a href="http://webnesday.ch">© 2014 Webnesday.ch</a>
-                |
-                <a target="_blank" href="http://www.twitter.com/webnesdaysg">@webnesdaysg</a>
-              </p>
+              <a href="http://webnesday.ch">© 2014 Webnesday.ch</a>
+                <span class="hidden-phone">|</span>
+              <a target="_blank" href="http://www.twitter.com/webnesdaysg">@webnesdaysg</a>
             </div>
           </div>
         </div>
@@ -66,8 +65,8 @@
   <!-- Bootstrap core JavaScript
   ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
-  <!--<script src="js/vendor/jquery-1.10.2.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>-->
+  <!-- <script src="js/vendor/jquery-1.10.2.min.js"></script> -->
+  <!-- <script src="js/bootstrap.min.js"></script> -->
   <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-47732832-1']);
