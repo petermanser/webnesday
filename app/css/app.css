@@ -52,13 +52,18 @@ body {
     display: block;
 }
 
-@media only screen and (min-width : 768px) {
+@media only screen and (max-width : 768px) {
   .site-wrapper-inner {
     /*margin-top: 150px;*/
   }
 }
 
 @media only screen and (max-width : 480px) {
+  html {
+    /* Improve android performance */
+    box-shadow: none;
+  }
+
   h1 {
     font-size: 21px;
   }
